@@ -1,0 +1,41 @@
+body {
+  background-color: rgba(234, 253, 254, 0.457);
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.dashboard-section {
+  margin-bottom: 40px;
+}
+
+.widgets-container {
+  display: flex;
+  /* gap: 10px; */
+  flex-wrap: wrap; 
+}
+
+.widget {
+  border: 1px solid #ccc;
+  padding: 5px;  
+  width: 350px !important;
+  position: relative;
+  /* border: 1px solid red !important; */
+  border-radius: 8px !important;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-widget-btn {
+  margin-top: 4rem !important;
+  margin-right: 7rem !important;
+}
